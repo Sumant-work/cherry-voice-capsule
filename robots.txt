@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# This asks search engines not to crawl this GitHub Pages site.
+# Keep the link private and do not share it publicly.
