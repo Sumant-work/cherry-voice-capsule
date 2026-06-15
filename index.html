@@ -9,7 +9,7 @@
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 <meta name="theme-color" content="#ffeff7" />
-  <title>Birthday Voice Capsule — For Cherry 🌸</title>
+  <title>Birthday Surprise Capsule — For Cherry 🌸</title>
   <style>
     :root{
       --bg1:#fff7fb;
@@ -272,10 +272,10 @@
     <section class="card" aria-live="polite">
       <span class="sparkle s1"></span><span class="sparkle s2"></span><span class="sparkle s3"></span><span class="sparkle s4"></span>
       <div class="content">
-        <div class="tag" id="stateTag">🌸 Birthday Voice Capsule</div>
+        <div class="tag" id="stateTag">🌸 Birthday Surprise Capsule</div>
         <div class="hero-icon" id="heroIcon">🎁</div>
         <h1 id="headline">For Cherry</h1>
-        <p class="subtitle" id="subtitle">A tiny voice message is waiting to bloom on your birthday.</p>
+        <p class="subtitle" id="subtitle">A tiny surprise is waiting to bloom on your birthday.</p>
 
         <div id="lockedView" class="hidden">
           <div class="date-pill">Unlocks on 28 October 2026 · 12:00 AM IST</div>
@@ -312,7 +312,7 @@
           <p class="soft-note">कुछ संदेश सिर्फ एक दिन के लिए खिलते हैं… और फिर याद बन जाते हैं।</p>
         </div>
 
-        <div class="footer">One Day Voice Bloom 🌸</div>
+        <div class="footer">One Day Birthday Bloom 🌸</div>
       </div>
     </section>
   </main>
@@ -418,10 +418,10 @@
       ["lockedView","openView","expiredView"].forEach(id => $(id).classList.add("hidden"));
       if(state === "locked"){
         $("lockedView").classList.remove("hidden");
-        $("stateTag").textContent = "🔒 Birthday Voice Capsule";
+        $("stateTag").textContent = "🔒 Birthday Surprise Capsule";
         $("heroIcon").textContent = "🎁";
         $("headline").textContent = "For Cherry";
-        $("subtitle").textContent = "A tiny voice message is waiting to bloom on your birthday.";
+        $("subtitle").textContent = "A tiny surprise is waiting to bloom on your birthday.";
         tickCountdown();
         unlockTimer = setInterval(tickCountdown, 1000);
       }
